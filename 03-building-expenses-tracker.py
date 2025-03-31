@@ -1,3 +1,11 @@
+"""
+This is a simple expense tracker program that allows users to add, list, and filter expenses by category.
+It uses a list of dictionaries to store the expenses, where each dictionary contains the amount and category of the expense.
+The program provides functions to add expenses, print all expenses, calculate total expenses, and filter expenses by category.
+The user can interact with the program through a simple command-line interface.
+It allows users to add expenses, view all expenses, calculate total expenses, and filter expenses by category.
+"""
+
 def add_expense(expenses, amount, category):
     expenses.append({'amount': amount, 'category': category})
     

@@ -1,5 +1,6 @@
 """
-
+This is a simple case converter that converts PascalCase or camelCase strings to snake_case.
+It uses a list comprehension to iterate through each character in the input string.
 """
 
 def convert_to_snake_case(pascal_or_camel_cased_string):
